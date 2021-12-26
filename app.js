@@ -106,10 +106,11 @@ $(document).ready(function(){
         count++;
       if(count>0 && count<5){
       $('#newList').append(' <label class="label">Timer =' +count+' ></label>  <p>00</p><p>:</p> <p>'+arrMin[count-1]+'</p> <p>:</p><p>'+arrSec[count-1]+'</p>')  
+ 
       }else{
         alert("The time edit is completed!!");
       }
-      $('#newList').append('<br>')
+    
       
       $('#newList').css('font-size' ,'20px')
        
