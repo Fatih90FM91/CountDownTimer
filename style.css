@@ -39,6 +39,7 @@ label{
 #edit{
     margin-left: 60px;
     margin-bottom: 5px;
+    margin-top: 5px;
     background-color: #F36A7B;
     border-radius: 3px;
     border: 2px solid #6B76FE;
@@ -48,5 +49,9 @@ label{
 
 #newList{
     display: flex;
+    background-color: #FFFFD2;
+    width: 50%;
+    border-radius: 6px;
+    border: 2px solid #595260;
    
 }
